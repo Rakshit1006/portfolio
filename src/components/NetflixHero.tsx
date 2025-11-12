@@ -80,8 +80,8 @@ export function NetflixHero() {
               variant="outline"
               className="text-white border-white/30 bg-black/30 backdrop-blur-sm"
             >
-              <span className="w-2 h-2 bg-red-500 rounded-full mr-2 animate-pulse" />
-              Available for hire
+              <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse" />
+              Hired
             </Badge>
           </motion.div>
 

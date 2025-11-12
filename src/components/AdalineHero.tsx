@@ -22,9 +22,9 @@ export function AdalineHero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-6 text-sm/6 sm:text-lg/8 text-foreground/80 mx-auto max-w-3xl"
         >
-          Senior Full Stack Developer specializing in React, Angular, Spring
-          Boot, and Django. Fast iterations, measurable outcomes, and
-          reliability at scale.
+          Associate Consultant specializing in React, Angular, Spring Boot, and
+          Django. Fast iterations, measurable outcomes, and reliability at
+          scale.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 8 }}
