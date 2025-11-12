@@ -15,6 +15,7 @@ import {
   Calendar,
   Download,
 } from "lucide-react";
+
 import { ShootingStars } from "./ui/shooting-stars";
 import { StarsBackground } from "./ui/stars-background";
 
@@ -216,19 +217,19 @@ export function NetflixContact() {
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-white flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse" />
-                    Available
+                    Associate Consultant
                   </CardTitle>
                   <Badge
                     variant="outline"
                     className="border-green-500 text-green-400 bg-green-500/10"
                   >
-                    Open to work
+                    Hired
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 text-sm">
-                  Currently accepting new projects and full-time opportunities.
+                  Currently working as Associate Consultant at Skillnet.
                   Response time: within 24 hours.
                 </p>
               </CardContent>
