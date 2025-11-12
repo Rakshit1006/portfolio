@@ -7,10 +7,15 @@ export function Experience() {
       <h2 className="text-2xl font-semibold tracking-tight">Experience</h2>
       <div className="mt-8 space-y-8">
         {experiences.map((exp) => (
-          <article key={exp.company} className="rounded-xl border border-black/10 dark:border-white/15 p-6">
+          <article
+            key={exp.company}
+            className="rounded-xl border border-black/10 dark:border-white/15 p-6"
+          >
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="text-lg font-semibold">{exp.role}</h3>
-              <div className="text-sm text-foreground/60">{exp.start} – {exp.end}</div>
+              <div className="text-sm text-foreground/60">
+                {exp.start} – {exp.end}
+              </div>
             </div>
             <div className="text-foreground/80 mt-1">
               {exp.company} • {exp.location}
@@ -26,5 +31,3 @@ export function Experience() {
     </Section>
   );
 }
-
-

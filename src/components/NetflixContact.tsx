@@ -15,6 +15,10 @@ import {
   Calendar,
   Download,
 } from "lucide-react";
+import { Vortex } from "./ui/vortex";
+import { WavyBackground } from "./ui/wavy-background";
+import { ShootingStars } from "./ui/shooting-stars";
+import { StarsBackground } from "./ui/stars-background";
 
 const contactMethods = [
   {
@@ -37,15 +41,15 @@ const contactMethods = [
     icon: <Github className="w-6 h-6" />,
     title: "GitHub",
     value: "github.com/Rakshit0206",
-    href: "https://github.com/Rakshit0206",
+    href: "https://github.com/Rakshit1006",
     description: "Code repositories & open source work",
     color: "from-gray-700 to-gray-900",
   },
   {
     icon: <Phone className="w-6 h-6" />,
     title: "Phone",
-    value: "+91 93542 54337",
-    href: "tel:+919354254337",
+    value: "+91 7289872638",
+    href: "tel:+917289872638",
     description: "Available for urgent discussions",
     color: "from-green-500 to-emerald-500",
   },
@@ -59,8 +63,15 @@ const availability = [
 
 export function NetflixContact() {
   return (
-    <section id="contact" className="py-16 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="relative py-16 bg-background min-h-screen">
+      {/* Background layers bound to this section */}
+      <StarsBackground className="absolute inset-0 z-0 pointer-events-none" />
+      <ShootingStars
+        starHeight={3}
+        className="absolute inset-0 z-0 pointer-events-none"
+      />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -158,7 +169,7 @@ export function NetflixContact() {
                       className="bg-red-600 hover:bg-red-700 text-white"
                       onClick={() =>
                         window.open(
-                          "mailto:Rakshit.Kumar.0206@gmail.com?subject=Project Inquiry",
+                          "mailto:k.rakshit2001@gmail.com?subject=Project Inquiry",
                           "_blank"
                         )
                       }
@@ -171,7 +182,7 @@ export function NetflixContact() {
                       className="border-red-500 text-red-500 hover:bg-red-500/10"
                       onClick={() =>
                         window.open(
-                          "https://calendly.com/Rakshit-Kumar-0206",
+                          "https://calendly.com/k-rakshit2001/30min",
                           "_blank"
                         )
                       }
@@ -263,7 +274,7 @@ export function NetflixContact() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 text-sm mb-2">New Delhi, India</p>
+                <p className="text-gray-300 text-sm mb-2">Gurgaon, India</p>
                 <p className="text-gray-400 text-xs">
                   Available for remote work worldwide. Open to relocation
                   opportunities.
@@ -294,7 +305,7 @@ export function NetflixContact() {
               className="bg-red-600 hover:bg-red-700 text-white font-semibold"
               onClick={() =>
                 window.open(
-                  "mailto:Rakshit.Kumar.0206@gmail.com?subject=Project Inquiry&body=Hi Rakshit, I would like to discuss a project with you.",
+                  "mailto:k.rakshit2001@gmail.com?subject=Project Inquiry&body=Hi Rakshit, I would like to discuss a project with you.",
                   "_blank"
                 )
               }

@@ -130,8 +130,8 @@ export function NetflixHero() {
               "Spring Boot",
               "Django",
               "Node.js",
-              "AWS",
-              "Docker",
+              "VTEX",
+              "Mirakl",
             ].map((tech) => (
               <Badge
                 key={tech}
@@ -185,7 +185,7 @@ export function NetflixHero() {
             className="flex gap-4"
           >
             <a
-              href="https://github.com/Rakshit0206"
+              href="https://github.com/Rakshit1006"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -193,7 +193,7 @@ export function NetflixHero() {
               <Github className="w-5 h-5 text-white" />
             </a>
             <a
-              href="https://www.linkedin.com/in/RakshitKumar0206"
+              href="https://www.linkedin.com/in/rakshit-kumar-1b0228222/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -201,7 +201,7 @@ export function NetflixHero() {
               <Linkedin className="w-5 h-5 text-white" />
             </a>
             <a
-              href="mailto:Rakshit.Kumar.0206@gmail.com"
+              href="mailto:k.rakshit2001@gmail.com"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
             >
               <Mail className="w-5 h-5 text-white" />

@@ -94,7 +94,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-3">
           <Link
-            href="https://www.linkedin.com/in/RakshitKumar0206"
+            href="https://www.linkedin.com/in/rakshit-kumar-1b0228222/"
             aria-label="LinkedIn"
             className="p-2 rounded hover:bg-black/5 dark:hover:bg-white/10"
           >

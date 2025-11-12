@@ -22,8 +22,8 @@ export const contact = {
   email: "k.rakshit2001@gmail.com",
   phone: "+917289872638",
   location: "Gurgaon, India",
-  linkedin: "https://www.linkedin.com/in/RakshitKumar0206",
-  github: "https://github.com/Rakshit0206",
+  linkedin: "https://www.linkedin.com/in/rakshit-kumar-1b0228222/",
+  github: "https://github.com/Rakshit1006",
 };
 
 export const summary =
@@ -99,18 +99,21 @@ export const education: EducationItem[] = [
     location: "Delhi, India",
     year: "2023",
     score: "9.02 CGPA/10",
-    notes: ["Captain of the basketball team"],
+    notes: ["Part of the music society."],
   },
   {
-    school: "Air Force Golden Jubilee Institute",
-    degree: "Metric (10th Grade)",
-    location: "Delhi, India",
+    school: "Rotary Public School",
+    degree: "10th Grade, CBSE",
+    location: "Gurgaon, India",
+    year: "2017",
     score: "10 CGPA",
   },
   {
-    school: "Vandana International School",
-    degree: "10+2, Computer Science",
-    location: "Delhi, India",
+    school: "The Maurya School",
+    degree: "10+2, CBSE",
+    location: "Gurgaon, India",
     year: "2019",
+    score: "95.2%",
+    notes: ["School Topper, Awarded Scholarship."],
   },
 ];

@@ -16,6 +16,7 @@ import {
   User,
   MessageCircleHeart,
 } from "lucide-react";
+import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 export default function Home() {
   const navItems = [
     {
@@ -34,6 +35,7 @@ export default function Home() {
           <NetflixHero />
         </section>
         <NetflixExperience />
+        {/* <ExperienceTimeline /> */}
         <NetflixSkills />
         <NetflixEducation />
         <NetflixContact />
