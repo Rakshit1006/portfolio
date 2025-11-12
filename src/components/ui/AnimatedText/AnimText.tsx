@@ -1,7 +1,6 @@
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { useMotionValue, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 import RedoAnimText from "./RedoAnimText";
-import CursorBlinker from "./CusorBlinker";
 
 export interface IAnimTextProps {
   delay: number;
@@ -11,10 +10,6 @@ export default function AnimText({ delay }: IAnimTextProps) {
   const [done, setDone] = useState(false);
   const baseText = "Rakshit Kumar...";
   const count = useMotionValue(0);
-  const rounded = useTransform(count, (latest) => Math.round(latest));
-  const displayText = useTransform(rounded, (latest) =>
-    baseText.slice(0, latest)
-  );
 
   useEffect(() => {
     const controls = animate(count, baseText.length, {
