@@ -1,13 +1,15 @@
 import { motion } from "framer-motion";
 
-const cursorVariants = {
+import { Variants } from "framer-motion";
+
+const cursorVariants: Variants = {
   blinking: {
     opacity: [0, 0, 1, 1],
     transition: {
       duration: 1,
       repeat: Infinity,
       repeatDelay: 0,
-      ease: "linear",
+      ease: [0.4, 0, 0.2, 1],
       times: [0, 0.5, 0.5, 1],
     },
   },
