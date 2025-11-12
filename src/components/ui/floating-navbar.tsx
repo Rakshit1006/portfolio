@@ -7,7 +7,7 @@ import {
   useMotionValueEvent,
 } from "motion/react";
 import { cn } from "@/lib/utils";
-import { Play, Pause, ArrowUp } from "lucide-react";
+import { Play, Pause } from "lucide-react";
 
 export const FloatingNav = ({
   navItems,
@@ -116,9 +116,6 @@ export const FloatingNav = ({
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <AnimatePresence mode="wait">
@@ -139,7 +136,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems?.map((navItem: any, idx: number) => (
+        {navItems?.map((navItem: { name: string; link: string; icon?: JSX.Element }, idx: number) => (
           <a
             key={`link=${idx}`}
             href={navItem.link}

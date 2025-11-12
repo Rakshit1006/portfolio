@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Calendar, MapPin, Award, BookOpen } from "lucide-react";
@@ -58,19 +59,19 @@ const certifications = [
     title: "VTEX Certified Developer",
     issuer: "VTEX",
     date: "2022",
-    icon: <img src="/VTEX_icon.svg" className="w-10 h-10" />,
+    icon: <Image src="/VTEX_icon.svg" alt="VTEX" width={40} height={40} />,
   },
   {
     title: "Mirakl Developer & Solution Architect Certification",
     issuer: "Mirakl",
     date: "2022",
-    icon: <img src="/Mirakl_icon.png" className="w-10 h-10" />,
+    icon: <Image src="/Mirakl_icon.png" alt="Mirakl" width={40} height={40} />,
   },
   {
     title: "Spryker Developer Certification",
     issuer: "Spryker",
     date: "2022",
-    icon: <img src="/Spryker_icon.jpeg" className="w-10 h-10" />,
+    icon: <Image src="/Spryker_icon.jpeg" alt="Spryker" width={40} height={40} />,
   },
   {
     title: "Full Stack Web Development",

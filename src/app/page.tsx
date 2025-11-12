@@ -6,17 +6,7 @@ import { NetflixEducation } from "@/components/NetflixEducation";
 import { NetflixContact } from "@/components/NetflixContact";
 import { NetflixScrollIndicator } from "@/components/NetflixScrollIndicator";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import {
-  Play,
-  Info,
-  Github,
-  Linkedin,
-  Mail,
-  ArrowUp,
-  User,
-  MessageCircleHeart,
-} from "lucide-react";
-import { ExperienceTimeline } from "@/components/ExperienceTimeline";
+import { ArrowUp } from "lucide-react";
 export default function Home() {
   const navItems = [
     {

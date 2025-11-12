@@ -15,8 +15,6 @@ import {
   Calendar,
   Download,
 } from "lucide-react";
-import { Vortex } from "./ui/vortex";
-import { WavyBackground } from "./ui/wavy-background";
 import { ShootingStars } from "./ui/shooting-stars";
 import { StarsBackground } from "./ui/stars-background";
 

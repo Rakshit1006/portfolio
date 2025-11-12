@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Play, Info, Github, Linkedin, Mail } from "lucide-react";
@@ -223,11 +224,11 @@ export function NetflixHero() {
             >
               <div className="mx-2 flex-1">
                 <div className="relative mt-2 aspect-[3/4] w-full">
-                  <img
-                    loading="lazy"
+                  <Image
                     className="absolute inset-0 h-full w-full rounded-[16px] bg-[#000000] object-cover contrast-75"
                     alt="Invite background"
                     src="/images/profile_image.png"
+                    fill
                     style={{
                       boxShadow: "rgba(108, 74, 74, 0.05) 0px 5px 6px 0px",
                       opacity: 1,
