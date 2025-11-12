@@ -71,12 +71,14 @@ const certifications = [
     title: "Spryker Developer Certification",
     issuer: "Spryker",
     date: "2022",
-    icon: <Image src="/Spryker_icon.jpeg" alt="Spryker" width={40} height={40} />,
+    icon: (
+      <Image src="/Spryker_icon.jpeg" alt="Spryker" width={40} height={40} />
+    ),
   },
   {
-    title: "Full Stack Web Development",
-    issuer: "freeCodeCamp",
-    date: "2021",
+    title: "ML and AI Specialization",
+    issuer: "Stanford Online, Deeplearning.ai",
+    date: "2025",
     icon: "💻",
   },
 ];

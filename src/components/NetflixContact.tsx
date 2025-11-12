@@ -57,7 +57,6 @@ const contactMethods = [
 const availability = [
   { day: "Monday - Friday", time: "9:00 AM - 6:00 PM PST", available: true },
   { day: "Weekends", time: "Limited availability", available: false },
-  { day: "Holidays", time: "By appointment only", available: false },
 ];
 
 export function NetflixContact() {
@@ -230,6 +229,7 @@ export function NetflixContact() {
               <CardContent>
                 <p className="text-gray-300 text-sm">
                   Currently working as Associate Consultant at Skillnet.
+                  <br />
                   Response time: within 24 hours.
                 </p>
               </CardContent>
@@ -275,8 +275,7 @@ export function NetflixContact() {
               <CardContent>
                 <p className="text-gray-300 text-sm mb-2">Gurgaon, India</p>
                 <p className="text-gray-400 text-xs">
-                  Available for remote work worldwide. Open to relocation
-                  opportunities.
+                  Open for collaboration and Entrepreneurial Opportunities.
                 </p>
               </CardContent>
             </Card>
