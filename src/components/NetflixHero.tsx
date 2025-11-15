@@ -113,9 +113,9 @@ export function NetflixHero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-base sm:text-lg text-gray-300 mb-8 max-w-xl"
           >
-            Building resilient, scalable products with React, Angular, Spring
-            Boot, and Django. Specializing in fast iterations, measurable
-            outcomes, and reliability at scale.
+            Building resilient, scalable products with React, Angular, Node.js ,
+            and GraphQL. Specializing in fast iterations, measurable outcomes,
+            and reliability at scale.
           </motion.p>
 
           {/* Tech Stack */}
@@ -128,8 +128,8 @@ export function NetflixHero() {
             {[
               "React",
               "Angular",
-              "Spring Boot",
-              "Django",
+              "Next",
+              "GraphQL",
               "Node.js",
               "VTEX",
               "Mirakl",

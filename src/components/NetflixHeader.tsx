@@ -140,7 +140,7 @@ export function NetflixHeader() {
                 className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white"
                 onClick={() => scrollToSection("#contact")}
               >
-                Hire Me
+                Contact Me
               </Button>
             </div>
 
@@ -207,7 +207,7 @@ export function NetflixHeader() {
                   className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white"
                   onClick={() => scrollToSection("#contact")}
                 >
-                  Hire Me
+                  Contact Me
                 </Button>
               </div>
             </div>
